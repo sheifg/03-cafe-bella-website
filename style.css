@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  top: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #c08124;
+  color: #e0ca99;
+}
+
+.header-h {
+  font-size: 45px;
+}
+
+.nav-menu {
+  padding: 10px;
+}
+
+.nav-item {
+  display: inline;
+  padding: 8px;
+}
+
+.item-anch {
+  color: #e0ca99;
+}
+
+.item-anch:hover {
+    color: #312007;
+}
+
+.item-anch:active {
+    color: #f9e908;
+}
+
+.intro {
+  background: url("./images/coffee.jpg");
+  background-size: cover;
+  /* cover: Scales the image (while preserving its ratio) to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space */
+  background-position: center;
+  min-height: 200px;
+  /* To calculate the height of the <section> (intro) based on the height of the <header> and the height of the <footer>:
+    100vh = 100% of the viewport height 
+    285px = (header-height) + (footer -height) */
+  height: calc(100vh - 285px);
+  color: #fff2d7;
+  padding: 30px;
+  text-align: center;
+}
+
+.intro-h {
+  font-size: 35px;
+}
+
+.intro-p {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #c08124;
+  color: #e0ca99;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-h {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer-p {
+  font-size: 14px;
+  padding: 3px;
+}
+
+.menu {
+  padding: 50px;
+  text-align: center;
+  background-color: #e0ca99;
+  background-size: cover;
+  height: 100vh;
+  color: #46280b;
+}
+.menu-h {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.menu-item {
+  list-style: none;
+  font-size: 19px;
+  padding: 10px;
+}
