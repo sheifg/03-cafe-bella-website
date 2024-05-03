@@ -1,4 +1,4 @@
-## **03 - Cafe Bella Website**
+## **Cafe Bella Website**
 
 
 ### **Project description:**
